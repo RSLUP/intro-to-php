@@ -7,10 +7,10 @@
   <body>
     <div class="header">
       <ul>
-        <li><a class="active" href="home.html">Home</a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="home.php">Home</a></li>
+        <li><a href="news.php">News</a></li>
+        <li><a href="contact.php">Contact</a></li>
+        <li><a href="about.php">About</a></li>
       </ul>
     </div>
     <div class="main-content">Home - Content</div>
