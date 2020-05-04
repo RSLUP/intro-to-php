@@ -7,7 +7,10 @@
 </head>
 
 <body>
-  <?php require "header.php" ?>
+  <?php
+  $active = "contact";
+  require "header.php";
+  ?>
   <div class="main-content">Contact - Content</div>
   <?php require "footer.php" ?>
 </body>

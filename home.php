@@ -7,7 +7,10 @@
 </head>
 
 <body>
-  <?php require "header.php" ?>
+  <?php
+  $active = "home";
+  require "header.php";
+  ?>
   <div class="main-content">Home - Content</div>
   <?php require "footer.php" ?>
 </body>
