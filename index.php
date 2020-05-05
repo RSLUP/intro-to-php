@@ -8,10 +8,13 @@
 </head>
 
 <body>
+  <?php
+  require "auth_login.php";
+  ?>
   <div id="login-div">
     <form id="login-form" action="process_login.php" method="POST">
-      <input type="text" placeholder="email" />
-      <input type="password" placeholder="password" />
+      <input name="email" type="text" placeholder="email" />
+      <input name="password" type="password" placeholder="password" />
       <button type="submit">Login</button>
     </form>
   </div>

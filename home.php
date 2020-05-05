@@ -8,6 +8,7 @@
 
 <body>
   <?php
+  require "auth.php";
   $active = "home";
   require "header.php";
   ?>
