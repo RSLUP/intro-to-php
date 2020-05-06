@@ -1,3 +1,7 @@
+<?php
+require "auth.php";
+$active = "contact";
+?>
 <!DOCTYPE html>
 <html>
 
@@ -8,8 +12,6 @@
 
 <body>
   <?php
-  require "auth.php";
-  $active = "contact";
   require "header.php";
   ?>
   <div class="main-content">Contact - Content</div>
