@@ -1,3 +1,7 @@
+<?php
+require "auth.php";
+$active = "home";
+?>
 <!DOCTYPE html>
 <html>
 
@@ -7,11 +11,7 @@
 </head>
 
 <body>
-  <?php
-  require "auth.php";
-  $active = "home";
-  require "header.php";
-  ?>
+  <?php require "header.php"; ?>
   <div class="main-content">Home - Content</div>
   <?php require "footer.php"; ?>
 </body>

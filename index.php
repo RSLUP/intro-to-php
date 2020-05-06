@@ -1,3 +1,4 @@
+<?php require "auth_login.php"; ?>
 <!DOCTYPE html>
 <html>
 
@@ -8,9 +9,6 @@
 </head>
 
 <body>
-  <?php
-  require "auth_login.php";
-  ?>
   <div id="login-div">
     <form id="login-form" action="process_login.php" method="POST">
       <input name="email" type="text" placeholder="email" />
