@@ -1,6 +1,4 @@
-<?php
-require "auth_login.php";
-?>
+<?php require "auth_login.php"; ?>
 <!DOCTYPE html>
 <html>
 

@@ -11,9 +11,7 @@ $active = "about";
 </head>
 
 <body>
-  <?php
-  require "header.php";
-  ?>
+  <?php require "header.php"; ?>
   <div class="main-content">About - Content</div>
   <?php require "footer.php"; ?>
 </body>
